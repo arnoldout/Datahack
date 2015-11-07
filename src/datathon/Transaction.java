@@ -18,6 +18,9 @@ public class Transaction {
 		this.transAmount = transAmount;
 		this.transTyp = transTyp;
 	}
+	public Transaction() {
+		super();
+	}
 	public Date getEpoch() {
 		return epoch;
 	}

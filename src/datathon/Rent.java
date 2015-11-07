@@ -22,4 +22,7 @@ public class Rent {
 	public void setTransAmount(float transAmount) {
 		this.transAmount = transAmount;
 	}
+	public Rent() {
+		super();
+	}
 }

@@ -9,6 +9,10 @@ public class Customer {
 	private Balance balance;
 	private Demographic demographic;
 
+	public Customer() {
+		super();
+	}
+
 	public Rent getRent() {
 		return rent;
 	}

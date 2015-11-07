@@ -6,6 +6,10 @@ public class Balance {
 		this.balance = balance;
 	}
 
+	public Balance() {
+		super();
+	}
+
 	private float balance;
 
 	public float getBalance() {
